@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.2rem;
+  background: linear-gradient(
+    to right,
+    rgba(40, 180, 131, 0.952),
+    rgba(126, 213, 111, 0.945)
+  );
+}
+
+.LogoBrandName {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  height: 3rem;
+  padding: 0.3rem 0.2rem 0.3rem 0.5rem;
+}
+
+.BrandName {
+  text-decoration-line: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.NavbarItems {
+  display: flex;
+}
+
+.NavbarItemsNav {
+  color: #fff;
+  padding-right: 1rem;
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}

@@ -1,11 +1,13 @@
 import styles from "./SearchResults.module.scss";
 import Buses from "./Buses";
+import Navbar from "../Navbar/Navbar";
 
 export default function SearchResults() {
   let buses = [1, 2, 3, 4, 5, 6, 7];
 
   return (
     <div>
+      <Navbar />
       <div className={styles.FilterPane}>
         Filter
         <ul>
